@@ -1,0 +1,11 @@
+{
+	"type": "mongodb",
+	"url": "mongodb+srv://tim:11020914@cluster0.17ra0.mongodb.net/devel-dev?retryWrites=true&w=majority",
+	"entities": [
+		"./src/models/*.ts"
+	],
+	"synchronize": false,
+	"ssl": {
+		"rejectUnauthorized": false
+	}
+}
